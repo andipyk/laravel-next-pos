@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    size: 80mm 200mm; /* Sesuaikan dengan ukuran kertas struk */
+    margin: 0; /* Hilangkan margin pada cetakan */
+  }
+  body {
+    font-family: Arial, sans-serif; /* Ganti font sesuai kebutuhan */
+  }
+  /* Sesuaikan gaya cetakan sesuai kebutuhan */
+  #print-content {
+    width: 100%;
+    padding: 10px;
+    /* Tambahkan gaya lainnya */
+  }
+}
